@@ -1,0 +1,105 @@
+->machine learning 
+ml is all about traning the computer with data like human learn with the experience 
+we give lots of data to the machine , machine predicts data on it's own and recoginses the pattrens 
+-> uses of machine learning 
+youtube recmendation watch history  
+spam detection 
+voice assistance 
+face unlock on phones 
+ML v/s AI v/s DL
+AI-> it's makes the aplication smart 
+ML -> it's a brain which learns from the data 
+DL -> it's uses nureons , used for dealing the tough problems 
+Data science is a feild where we learn the AI,ML,DL
+-> types of ML 
+_> supervised learing 
+machine input and correct answers and system try to predict 
+plays game of prediction 
+99% works on this 
+inome  credit score  loan
+40,000    750         yes
+20,000    600         NO
+60,000    800         yes
+30,000    580         NO
+-> find for 
+80,000    600        yes
+_>unsupervised Learning 
+we will find the pattrens 
+it will group similar items , reduce complexity , spot outliners 
+-> no prediction here 
+-> ex -> google search 
+only input no output 
+_> Reinforcement learing
+we don't teach them directly, it will learn on it's own where , good will be awarded and bad will be punished 
+learning with trail and error 
+
+_>EDA(Exploratory Data analysis )
+1. problem definition 
+2. data collection 
+3. EDA 
+4. Data preprocessing / cleaning 
+5. Feature Selection & Engineering 
+6. Split the DataSet 
+7. Model Selection 
+8. Model traning
+9. Model Evaluation 
+10.HyperParameter Tuning 
+Step of EDA 
+1. vewing the data 
+ . head(),tail(),shape,info()
+ . what columns do i have , what data  they are ?
+2. Summary Statistics 
+ . mean ,meadian , mode, std , min,max , quartiles 
+ . helps to understand spread and central 
+3.value counts
+ . unique values in a coloumns 
+ . great for categorical columns 
+4. Missing vaue analysis 
+5. visualization 
+6. Target variable Exploration 
+#importance of EDA 
+-> identify the limitation 
+-> guides for the data cleaning 
+-> tells about the overview 
+#data cleaning 
+1. handling missing value 
+. check with coloumns missing value
+. stragies to handle 
+-> drop it if it's few 
+-> impute 
+mean -> for numerical data 
+mode -> categorical 
+advanced -> linear regression , KNN or Interpolation 
+2.Remove duplicates 
+.drop the duplicate values 
+3. fix data types 
+4. handling inconsistent categories
+5. detect and handle outliners
+7. fix logic  or domanic error 
+. invalid values to be replace 
+#data prepocessing
+1. encoding 
+tanfroming the vaild data into usable format 
+-> usable format , when the alogorithm is been converted to done in the format of numbers , if we have in the format of the string we will get an error so it's beter to convert into numbers for example in gender we have male and female , m-> 0 , F-> 1 this would help machine to understand clearly than the string values 
+2 methods 
+.label encoding gender 
+.one hot encoding
+region -> we craete a multiple column for example we have region , so we are creating north , south , east , west coloumn , if we take north than for the person living in north gets 1 remaining gets 0 , same for all the columns 
+2. Feature tanfromation 
+3. Feature Scaling  
+-> bring the numerical values to a same scale 
+normalization , scales between 0 and 1 
+-> standardization 
+#Feature Engineering 
+ML model doesn't have domain logic , we are creating a new feature 
+ex : date  ->  month   year    day 
+    12/6/2005   6      2005      12
+    16/8/2004   8       2004     16
+#machine learning model to predict the charges 
+
+
+
+
+
+
+
