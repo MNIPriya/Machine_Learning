@@ -96,10 +96,60 @@ ex : date  ->  month   year    day
     12/6/2005   6      2005      12
     16/8/2004   8       2004     16
 #machine learning model to predict the charges 
+#machine learning model to predict the heartDisease
+#supervised alogorithm
+regresserion algo 
 
+diffrence between regression , classification alogorithm
+-> if something is continutions it's regression 
+-> we find patren 
+#linear Regression 
+create a plot -> scatter plot , a stright line is draw this is called as best fit line then the points are connect to predict 
+->how to create the best fit line 
+y = mx + b 
+m is the slope , b is the intercept , x is the data point i need to prediction 
+y is the predction 
+slope -> if i am changing a data variable in x how much should i chance in y 
+h(tetha(x)) = tetha(0) + tetha(1) tetha0 is intercept and tetha 1 is the slope 
+-> residual error ->  predicted data points - actual data point is called as residual error
+the best fit line is the line which has less redisdual error value 
+# mean square error  -> cost function 
+cost fuction : we will add all he residual error then we get the sum of the values , 
+j (tetha0 , tetha1) = sumation (h tetha(x ) - y )^2 / 2m 
+minimisze cost fumction by changing value of tetha0 and tetha1
 
+gradeient descent 
+{1,1}, {2,2}, {3,3} -> plot this 
+use cost fuction and calculate the value , check for the residual error 
+# which has the less cost function  this called as the gradient decent curve , find the the gobal minimum value 
+repeat conversion theorem -> we use use this for createing the gradient decent function 
+if my learning rate is low -> finding the global minimum is difficult so we keep the learing rate less 
+ 
+ # multiple leanier regression 
+ hyper plane 
 
+#model evaluation tecniques 
+ -> we need to predict the value 
+  first we are comaring the x_tes to x_train and y_train to y_test -> using performance matrix 
+  R^2 and adjusted R^2 
+  R^2 = 1- (sum of residuals / sum of total) 
+  r^2 value will always in positive value 
+the result will be in decimals  0 - 1
+adjusted R^2 -> age-> salary -> 81%
+ if i add the new feature location location -> 88% 
+ sleep -> 89% <-  model they aren't corretated -> so we use the adjusted R^2 
+ formula => (1 - (1-R^2)(n- 1))/ n- p -1 
+#overfitting , under fitting 
+overfitting
+traning -> getting good performing (low bais)
+testing-> not good performing (high variance)
+underfittng
+traning -> no good performing (high bais)
+testing-> not good performing (high variance)
+                    M1 , M2 , M 3
+traing accuracy     92  92    68
+testing accuracy    64  90    64
+                    o   good     u 
 
-
-
-
+# to get a good model -> ridge and lesso regression 
+we use the hyper parameter slope value -> 
