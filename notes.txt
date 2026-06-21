@@ -152,4 +152,8 @@ testing accuracy    64  90    64
                     o   good     u 
 
 # to get a good model -> ridge and lesso regression 
-we use the hyper parameter slope value -> 
+we use the hyper parameter slope value -> 3D
+
+#classification alogorithm
+used to predict a category or class label for a given input 
+we are doing binary   
