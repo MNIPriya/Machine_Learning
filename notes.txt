@@ -157,3 +157,13 @@ we use the hyper parameter slope value -> 3D
 #classification alogorithm
 used to predict a category or class label for a given input 
 we are doing binary   
+
+#if the prediction is yes or no or just 2 to 3 things this can be used classification algorithm 
+logistic regression :
+   it's binary 
+   weight       obesity 
+   92               yes
+   63               no 
+   24               no
+   102              yes
+   196              yes
